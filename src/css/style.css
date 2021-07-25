@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+.section-container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bacground-section-one{
+    background-image: url(../assets/backgroundHome.png);
+    background-attachment: local;
+    background-size: 100% 100vh;
+    background-repeat: no-repeat; 
+}
+
+
+footer{
+    height: 20px;
+    padding: 25px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    
+}
+
+.myDivSectionOne{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    height: 60%;
+    width: 100%;
+}
+
+.myButtonSectionOne{
+    background-color: slategrey;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    padding: 10px 35px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    transition: 0.4s;
+    cursor: pointer;
+}
+.myButtonSectionOne:hover{
+    background-color: mediumseagreen;
+    color: white;
+}

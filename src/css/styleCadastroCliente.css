@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.section-container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.bacgroundCadastroCliente{
+    background-image: url(../assets/cadastroCliente.png);
+    background-attachment: local;
+    background-size: 100% 100vh;
+    background-repeat: no-repeat; 
+}
+
+.bacgroundCadastroProduto{
+    background-image: url(../assets/cadastroProduto.png);
+    background-attachment: local;
+    background-size: 100% 100vh;
+    background-repeat: no-repeat; 
+}
+
+.myFormContainer{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    background-color: rgba(11, 146, 106, 0.555);
+    width: 100vh;
+    height: 600px;
+    margin: 50px 40px;
+    border-radius: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    
+
+}
+
+.myFormClass{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    margin: inherit;
+    font-size: 17px;
+}
+
+.myH2Class{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 25%;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    flex-wrap: nowrap;
+}
+
+.myInputClass{
+    width: 60%;
+    box-sizing: border-box;
+    border: 2px solid rgb(132, 106, 248);
+    border-radius: 1px;
+}
+
+.mySubmitButton{
+    background-color: slategrey;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    padding: 10px 35px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    font-family:Arial, Helvetica, sans-serif;
+    transition: 0.4s;
+    cursor: pointer;
+    display: flex;
+    align-self: center;
+}
+
+.mySubmitButton:hover{
+    background-color: rgba(172, 13, 235, 0.87);
+    color: white;
+}
+
+.myVoltarButton{
+    background-color: rgba(207, 14, 255, 0.555);
+    border: none;
+    border-radius: 100%;
+    color: black;
+    padding: 20px 35px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 13px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    transition: 0.4s;
+    cursor: pointer;
+    display: flex;
+    align-self: center;
+}
+
+.myVoltarButton:hover{
+    background-color: rgba(250, 33, 4, 0.979);
+    color: white;
+}
+
+footer{
+    height: 20px;
+    padding: 25px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    
+}

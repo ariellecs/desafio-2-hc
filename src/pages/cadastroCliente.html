@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+        <title>Cadastro de Cliente</title>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <link rel="stylesheet" href="/src/css/styleCadastroCliente.css">
+
+    </head>
+    <body>
+        <section class="section-container bacgroundCadastroCliente">
+            <div class="myFormContainer">
+                
+                <h2 class="myH2Class">Cadastro de Cliente</h2>
+                
+                <form class="myFormClass" id="formCliente">
+                    <label for="nomeCliente">Nome Completo:</label>
+                    <input type="text" id="nomeCliente" name="nomeCliente" class="myInputClass"><br>
+                    
+                    <label for="email">E-mail:</label>
+                    <input type="text" id="email" name="email" class="myInputClass"><br>
+                    
+                    <label for="rua">Rua:</label>
+                    <input type="text" id="rua" name="rua" class="myInputClass"><br>
+                    
+                    <label for="numero">Número da residência:</label>
+                    <input type="text" id="numero" name="numero" class="myInputClass"><br>
+                    
+                    <label for="bairro">Bairro:</label>
+                    <input type="text" id="bairro" name="bairro" class="myInputClass"><br>
+
+                    <label for="cidade">Cidade:</label>
+                    <input type="text" id="cidade" name="cidade" class="myInputClass"><br>
+
+                    <label for="estado">Estado:</label>
+                    <input type="text" id="estado" name="estado" class="myInputClass"><br>
+
+                    <label for="telefone">Telefone:</label>
+                    <input type="text" id="telefone" name="telefone" class="myInputClass"><br>
+
+                    <input type="submit" id="confirmarCadastroCliente" value="Confirmar Cadastro" class="mySubmitButton">
+                
+                </form>
+
+            </div>
+            <input type="button" id="voltarCadCliente" value="Voltar" class="myVoltarButton">
+        </section>
+
+    <footer>
+        <p>Código fonte disponível em: <a href="">Clique aqui!</a> </p>
+    </footer>
+
+    </body>
+    <script src="/src/js/cadastroCliente.js"></script>
+</html>
