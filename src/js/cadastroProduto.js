@@ -75,7 +75,7 @@ button1.addEventListener('click', confirmaCadastro);
 
 function voltarCliente(e){
     e.preventDefault();
-    window.location.href = '../pages/index.html';
+    window.location.href = '../../index.html';
 }
 
 buttonVoltarCliente.addEventListener('click', voltarCliente);

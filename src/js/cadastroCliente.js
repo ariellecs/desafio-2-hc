@@ -85,7 +85,7 @@ function confirmaCadastro(e) {
 
 function voltarCliente(e){
     e.preventDefault();
-    window.location.href = '../pages/index.html';
+    window.location.href = '../../index.html';
 }
 
 button1.addEventListener('click', confirmaCadastro);
