@@ -7,10 +7,15 @@ Projeto desenvolvido para o programa Hiring Coders 2. Para o projeto, usei a tri
 Arquivos:
 
 index.html = Página inicial.
+
 src = Diretórios fontes.
+
 src/assets/.. = Imagens utilizadas.
+
 src/css/.. = Arquivos .css para estilização.
+
 src/js/.. = Arquivos .js para as páginas de cadastro.
+
 src/js/.. = Arquivos .html para as páginas de cadastro.
 
 --------------------------------------
